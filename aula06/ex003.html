@@ -24,10 +24,10 @@
          expedita ex eveniet neque ab laborum quasi ipsam tempora repellendus, quos, 
          voluptate accusantium maxime inventore officia alias doloremque?</p>
          <script>
-             var n1 = window.prompt('Digite um número: ') // recebe um valor String
-             var n2 = window.prompt('Digite outro número: ') // recebe um valor String
-             var soma = 
-             window.alert('A soma dos valores é ' + soma) // + concatenação 
+             var n1 = Number.parseInt(window.prompt('Digite um número: ')) // recebe um valor String
+             var n2 = Number.parseInt(window.prompt('Digite outro número: ')) // recebe um valor String
+             var soma = n1 + n2
+             window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // + concatenação 
              // (number + number) para adição
              // (string + string ) para concatenação
 
